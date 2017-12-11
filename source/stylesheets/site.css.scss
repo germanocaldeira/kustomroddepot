@@ -1,0 +1,73 @@
+  @import url(https://allfont.net/allfont.css?fonts=dymaxionscript);
+
+body{background: #ffe28a;color: #8d0808;}
+
+#title{
+  font-family: 'DymaxionScript', arial;
+  font-size: 2.5em;
+  text-decoration: underline;
+  color:#9a0e2a;
+}
+
+#title a:link, #title a:visited, #title a:hover{color:#9a0e2a;}
+
+section ul{list-style: none;}
+
+h3, #menu li, #menu li a:link, #menu li a:visited{
+  list-style: none;
+  display: inline;
+  font-family: 'DymaxionScript', arial;
+  font-decoration: small-caps;
+  font-size: 1.5em;
+  color:#9a0e2a;
+  text-decoration: none;
+  padding: 0 5px;
+}
+#menu li a:hover{color:#9a0e2a;text-decoration: underline;}
+
+section, #menu, #partners, .image{
+  width: 50%;
+  margin: 0 25%;
+  align:center;
+}
+
+section p:first-child:first-letter{
+  float: left;
+  color: #903;
+  font-size: 75px;
+  line-height: 60px;
+  padding: 4px 8px 0 3px;
+  font-family: Georgia;
+}
+
+footer{
+  text-align: center;
+  font-family: 'DymaxionScript', arial;
+  color:#9a0e2a;
+}
+
+label{
+  font-family: 'DymaxionScript', arial;
+  font-size: 1.5em;
+  color:#9a0e2a;
+}
+
+input[type=text], input[type=email], textarea  {
+    border: none;
+    background-color:#ffe28a;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+input[type=submit]  {
+    border: none;
+    background-color:#8d0808;
+    font-family: 'DymaxionScript', arial;
+    color: #ffe28a;
+    font-size: large;
+}
+.image{padding: 15px;}
+
+textarea{height: 200px;}
+
+.products, .products img{display: block;}
